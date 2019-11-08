@@ -1,0 +1,107 @@
+.content_wrapper {
+    padding: 16px;
+}
+
+.list_names > span {
+    display: inline-block;
+    width: 455px;
+    padding-left: 9px;
+    font-size: 13px;
+    color: #464646;
+}
+.one_item {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border-bottom: 3px solid #dee6e7;
+    transition: 0.2s;
+}
+.one_item > div {
+    width: 460px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.one_item1:hover {
+    background: rgba(70, 70, 70, 0.2);
+}
+.noStyle {
+    text-decoration: none !important;
+    color: black !important;
+}
+.loading {
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+.paginationBtn {
+    cursor: pointer;
+    text-align: center;
+    width: 40px !important;
+    height: 40px !important;
+    background: black !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+    margin: 1px !important;
+    margin-right: 8px !important;
+}
+.paginationBtn > span {
+    display: inline-block;
+    margin-top: 6px;
+    width: 100%;
+    height: 100%;
+}
+.activePage {
+    background: #ff7a28 !important;
+}
+
+/* Videos */
+.one_itemV {
+    display: flex;
+    justify-content: flex-start;
+    background: white;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border-bottom: 3px solid #dee6e7;
+    transition: 0.2s;
+}
+.one_itemV > div {
+    width: 35%;
+    font-size: 12px;
+    font-weight: 700;
+}
+.list_namesV > span {
+    display: inline-block;
+    width: 455px;
+    padding-left: 5px;
+    font-size: 13px;
+    color: #464646;
+}
+.video__box {
+    width: 600px;
+    height: 340px;
+    background: #464646;
+    margin-top: 10px;
+}
+.left {
+    width: 40%;
+}
+.againUpload {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 390px;
+    color: #ff7a28;
+    border-bottom: 1px dashed #ff7a28;
+}
+.onlyArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3% !important;
+}
+
+.width80 > div {
+    width: 80% !important;
+}

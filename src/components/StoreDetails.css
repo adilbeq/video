@@ -1,0 +1,118 @@
+.wrapper__store {
+    padding: 25px;
+    padding-right: 0px;
+}
+.wrapper__store_title {
+    font-weight: 300 !important;
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+.wrapper__store_data {
+    padding: 15px;
+}
+
+.inputEdit {
+    box-shadow: inset 0px -60px 57px -57px rgba(173,173,173,0.3) !important;
+} 
+.times {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    
+}
+.inputEditTime {
+    box-shadow: inset 0px -60px 57px -57px rgba(173,173,173,0.3) !important;
+    margin: 50 10px;
+    width: 200px;
+}
+.inputEditTime::placeholder {
+    color: red !important;
+}
+.inputEdit::placeholder {
+    color: red !important;
+}
+
+.label_wrapper {
+    height: 70px;
+    position: relative;
+}
+.label {
+    position: absolute;
+    font-weight: 400;
+}
+.MuiFormControl-marginDense {
+    margin-top: 28px !important;
+}
+.edit_buttons {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 170px;
+    margin-top: 320px;
+}
+.edit_buttons div {
+    color: white !important;
+}
+.delete .MuiButton-label {
+    border-bottom: 1px dashed #ff7212;
+}
+
+.edit_buttonsV {
+    display: flex;
+    padding-right: 170px;
+    margin-top: 80px;
+}
+.edit_buttonsV > div {
+    color: white !important;
+    margin-right: 20px;
+}
+.times2 {
+    display: flex;
+    padding: 15px;
+}
+.times2 > div {
+    margin-right: 20px;
+    width: 33%;
+}
+.rightStores {
+    padding: 25px;
+}
+.moreSpace {
+    width: 60% !important; 
+}
+.selectStore {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll !important;
+    height: 605px !important;
+    border: 2px solid #dee6e7;
+    margin-top: 10px;
+}
+.oneStoreInRight {
+    display: flex;
+    height: 40px !important;
+    min-height: 40px !important;
+    align-items: center;
+    padding: 0 15px;
+    border-bottom: 2px solid #dee6e7;
+}
+.oneStoreInRight div {
+    font-weight: 700;
+   
+}
+.input_wrapper {
+    
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    border: 2px solid #dee6e7;
+    padding: 2px;
+}
+.activeInput {
+    background: #ff7212;
+}
+.customInput {
+    width: 17px;
+    height: 17px;
+}
+.storeNameInput {
+    margin-left: 13px;
+}

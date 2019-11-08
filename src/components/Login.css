@@ -1,0 +1,33 @@
+.main {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #edeeef;
+}
+
+.main__form {
+    width: 360px;
+    height: 325px;
+    background: #FFF;
+    position: relative;
+}
+
+.main__inner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.main__logo {
+    
+}
+.label {
+    position: relative;
+}
